@@ -104,8 +104,9 @@ section.sec3 {
 
 .start-button {
     display: flex;
+    gap: 20px;
     padding: 15px;
-    padding-left: 80px;
+    padding-left: 5px;
     justify-content: center;
     align-items: center;
     border-right: 2px dashed #FF9FB3;
@@ -124,6 +125,7 @@ section.sec3 {
     display: flex;
     padding: 15px;
     justify-content: center;
+    align-items: center;
     align-items: center;
     border-left: 2px dashed #FF9FB3;
     gap: 10px;
