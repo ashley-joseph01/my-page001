@@ -11,9 +11,9 @@ body {
     height: 100vh;
     padding: 0px;
     margin: 0px;
-    background-image: url(img/pink.png);
+    background-image: url(img/xpBliss.jpg);
     background-repeat: no-repeat;
-    background-size: 1920px 1080px;
+    background-size: 1920px;
 
     /* border: 5px solid yellow; */
 }
@@ -47,8 +47,8 @@ footer {
     width: 100%;
     height: 60px;
     margin-top: auto;
-    background-color: #FA3CA4;
-    border-top: 10px groove #DD207D;
+    background-color: #1F5ED9;
+    border-top: 10px groove #3A82E6;
 
     /* border: 5px solid black; */
 }
@@ -72,12 +72,11 @@ section.sec1 {
 
 section.sec3 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: right;
-    align-items: baseline;
+    gap: 15px;
     align-items: last baseline;
-    padding-bottom:15px;
-    padding-right: 15px;
+    padding: 15px;
 
     /* border: 2px solid blue; */
 }
@@ -92,12 +91,10 @@ section.sec3 {
         width: 100px;
         height: 100px;
         margin-left: 30px;
-        /* margin-right: 30px; */
+        margin-right: 30px;
     }
 
     .container#medium {
-        display: flex;
-        justify-content: center;
         width: 150px;
         height: 150px;
     }
@@ -108,8 +105,7 @@ section.sec3 {
     padding-left: 80px;
     justify-content: center;
     align-items: center;
-    border-right: 2px dashed #FF9FB3;
-    color: #EFDCD8;
+    border-right: 2px dashed #1d54c4;
 
     font-size: 25px;
 
@@ -125,14 +121,10 @@ section.sec3 {
     padding: 15px;
     justify-content: center;
     align-items: center;
-    border-left: 2px dashed #FF9FB3;
+    border-left: 2px dashed #1d54c4;
     gap: 10px;
 
     font-size: 25px;
-}
-
-#time {
-    color: #EFDCD8;
 }
 
 /* MEDIA QUERIES */
